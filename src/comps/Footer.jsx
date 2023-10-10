@@ -7,7 +7,8 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
   return (
-    <footer className=' bg-black text-white text-center font-thin py-5 ' >
+    <footer className=' bg-black text-white text-center font-thin py-3 ' >
+      <h1 className=' text-sm sm:text-base mb-1'>shivrat503@gmail.com</h1>
       <h1 className=' text-sm sm:text-base'> &copy; 2023 Shivraj_Singh_Rathore.com</h1>
 
       <ul className='flex space-x-5 justify-center pt-3' >

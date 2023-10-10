@@ -7,7 +7,7 @@ const Projects = () => {
 
     {
       name : "Todo App",
-      image : "./todo.jpg",
+      image : "./todo1.jpg",
       about :  "Create your daily tasks with the help of Todo App, which is safe and authenticated. React + vite in frontend and NodeJS + MongoDB in backend is used ",
       git : "https://github.com/KingShiv21/todo_frontend",
       deployment_link : "https://todo-frontend-one-gold.vercel.app/login"
@@ -31,10 +31,10 @@ const Projects = () => {
 
     {
       name : "Hodlinfo",
-      image : "./hodlinfo.jpg",
+      image : "./hodlinfo1.jpg",
       about :  "It is a sigle page application to show data of top 10 Bitcoins in INR ,created through Node.js and EJS (frontend is not separately required)",
       git : "https://github.com/KingShiv21/hodlinfo",
-      deployment_link : "#"
+      deployment_link : "https://hodlinfo-frontend-psi.vercel.app/"
     },
     {
       name : "Login page",
