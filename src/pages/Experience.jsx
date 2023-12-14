@@ -55,12 +55,10 @@ const Experience = () => {
             <p> S.S. Jain Subodh Autonomous College ,Jaipur</p>
             <p> Course : BCA </p>
             <p> Timeline : 2021-24</p>
-            <p> 1st Semester : </p>
+            {/* <p> 1st Semester : </p>
             <p> 2nd Semester : </p>
             <p> 3rd Semester : </p>
-            <p> 4th Semester : </p>
-            <p> 5th Semester : </p>
-            <p> 6th Semester : </p>
+            <p> 4th Semester : </p> */}
             {/* <a href="tel:+917665006920">Call me</a> */}
 
         </VerticalTimelineElement>

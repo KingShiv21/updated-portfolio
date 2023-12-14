@@ -32,15 +32,15 @@ const Home = () => {
 
           <ul className="flex justify-center space-x-5">
 
-            <li><a href='https://wa.me/917665006920' className='py-3 px-3 text-blue-700 bg-gray-900 rounded-md border-2 border-yellow-400'  ><WhatsAppIcon fontSize='large'/></a></li>
-            <li><a href='https://www.linkedin.com/in/shivraj-singh-rathore-ba9b57275/' className='py-3 px-3 text-blue-700 bg-gray-900 rounded-md border-2 border-yellow-400' ><LinkedInIcon fontSize='large'/></a></li>
-            <li><a href='https://github.com/KingShiv21/' className='py-3 px-3 text-blue-700 bg-gray-900 rounded-md border-2 border-yellow-400' ><GitHubIcon fontSize='large'/></a></li>
+            <li><a target='_blank' href='https://wa.me/917665006920' className='py-3 px-3 text-blue-700 bg-gray-900 rounded-md border-2 border-yellow-400'  ><WhatsAppIcon fontSize='large'/></a></li>
+            <li><a target='_blank' href='https://www.linkedin.com/in/shivraj-singh-rathore-ba9b57275/' className='py-3 px-3 text-blue-700 bg-gray-900 rounded-md border-2 border-yellow-400' ><LinkedInIcon fontSize='large'/></a></li>
+            <li><a target='_blank' href='https://github.com/KingShiv21/' className='py-3 px-3 text-blue-700 bg-gray-900 rounded-md border-2 border-yellow-400' ><GitHubIcon fontSize='large'/></a></li>
           </ul>
 
         </div>
 
         <div className=" mt-10 ">
-          <img src="./profile.jpg" alt="not found" className=' w-60 h-60 m-auto rounded-full border-4 border-yellow-400' />
+          <img src="./profile.jpeg" alt="not found" className=' w-60 h-60 m-auto rounded-full ' />
         </div>
 
       </div>
