@@ -19,7 +19,7 @@ const Footer = () => {
 
       </ul>
       <ul className='flex space-x-5 justify-center pt-3' >
-        <li className=' text-white sm:text-blue-900 font-bold border-2 border-yellow-400 rounded-md px-2'><a download="./resume.pdf">Resume</a></li>
+        <li className=' text-white sm:text-blue-900 font-bold border-2 border-yellow-400 rounded-md px-2'><a href="./resume.pdf">Resume</a></li>
         <li>   <CallIcon /> +91 7665006920</li>
       </ul>
     </footer>
