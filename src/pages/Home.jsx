@@ -55,7 +55,7 @@ const Home = () => {
 <ul className=" px-1 text-left  sm:text-center text-sm sm:px-20:px-3:pt-1  text-white">
   <li className='py-1'>{<ArrowForwardIcon />}Hello, I am Shivraj Singh Rathore from Jaipur,India.</li>
   <li  className='py-1'>{<ArrowForwardIcon/>}I am currently completing my final year of BCA in S.S. Jain Subodh College ,Jaipur</li>
-  <li className='py-1'>{<ArrowForwardIcon/>}Eager and motivated MERN stack developer with a solid foundation in React.js, Node.js ( Express.js ) , MySQL with KNEX ORM ,MongoDB , responsive and beautiful designing gained through 3-month internship and years of learning , seeking to leverage my internship experience and passion for full-stack development to contribute to a dynamic team where I can continue to grow my skills and make meaningful contributions to innovative web projects</li>
+  <li className='py-1'>{<ArrowForwardIcon/>}I am also having my first on site internship of 3  months as a role of MERN Stack Developer at WeRNS It Sol. , Jaipur </li>
 
 
 </ul>
@@ -94,6 +94,14 @@ const Home = () => {
             <p> I started my Programming or even computer science journey from learning C language ,then jumped to C++ and finally JAVA. Out of all, i gave my most of the time and hardwork on mastering JAVA language. JAVA is my favourite Programming language and i also possesses good knowledge of its framework like Collection framework.
             </p>
             <p>I alse possess good knowledge of Data Structures and Algorithms, learned in Java language</p>
+          </div>
+
+
+          <div className='my-10'>
+            <h3 className=' text-2xl font-bold text-center mb-1'>My Goals & Objective</h3>
+            <p>
+            Eager and motivated MERN stack developer with a solid foundation in React.js, Node.js ( Express.js ) , MySQL with KNEX ORM ,MongoDB , responsive and beautiful designing gained through 3-month internship and years of learning , seeking to leverage my internship experience and passion for full-stack development to contribute to a dynamic team where I can continue to grow my skills and make meaningful contributions to innovative web projects
+            </p>
           </div>
 
 
