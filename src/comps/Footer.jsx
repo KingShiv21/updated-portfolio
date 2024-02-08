@@ -7,7 +7,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
   return (
-    <footer className=' bg-black text-white text-center font-thin py-3 ' >
+    <div className=' bg-black text-white text-center font-thin py-3 ' >
       <h1 className=' text-sm sm:text-base mb-1'>rajrat303@gmail.com</h1>
       <h1 className=' text-sm sm:text-base'> &copy; 2023 Shivraj_Singh_Rathore.com</h1>
 
@@ -22,7 +22,7 @@ const Footer = () => {
         <li className=' text-white sm:text-blue-900 font-bold border-2 border-yellow-400 rounded-md px-2'><a href="./resume.pdf">Resume</a></li>
         <li>   <CallIcon /> +91 7665006920</li>
       </ul>
-    </footer>
+    </div>
   )
 }
 

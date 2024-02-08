@@ -5,7 +5,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 const Experience = () => {
   return (
-    <div>
+    <div  style={{width:"100vw" , height:"80vh" , overflowY:"auto"}} >
       <VerticalTimeline lineColor='#3e497a'>
 
 

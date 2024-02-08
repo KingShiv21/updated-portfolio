@@ -48,7 +48,7 @@ const Projects = () => {
 
 
   return (
-    <div>
+    <div  style={{width:"100vw" , height:"90vh" , overflowY:"auto"}}>
       <div className=' bg-cyan-900'>
         <h1 className="py-5 text-2xl sm:text-3xl  text-yellow-500 font-bold text-center">My Personal Projects</h1>
       </div>

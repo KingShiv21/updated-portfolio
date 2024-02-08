@@ -3,11 +3,21 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Navbar from "../comps/Navbar.jsx"
 
 
 const Home = () => {
   return (
-    <div >
+    <div className='container-fluid' style={{ overflowY:"hidden" , width:"100vw"}}>
+      <div className='row h-100 p-0'>
+
+      <div className='container p-0 m-0 ' style={{height:"20vh"}}>
+        <Navbar/>
+      </div>
+
+      <div className='container p-0 m-0 ' style={{height:"80vh" , overflowY:"auto"}}>
+     
+
       <div className=' bg-black pb-5'>
 
         <div className=' text-white text-center pt-5' >
@@ -81,6 +91,10 @@ const Home = () => {
         </div>
       </div>
 
+
+
+      </div>
+      </div>
     </div>
   )
 }

@@ -6,7 +6,8 @@ const Navbar = () => {
     
     const [oldNavbar, setNavbar] = useState(true)
     return (
-        <div>
+        <div >
+
             <div className=" bg-cyan-900">
                 <div className=" pl-3 py-5 sm:py-8">
                     <div className=" sm:invisible visible sm:h-0">
