@@ -13,17 +13,7 @@ const Home = () => {
         <div className=' text-white text-center pt-5' >
           <h1 className=" text-4xl  text-yellow-500 font-bold " >I'm Shivraj </h1>
           <h3 className=" text-xl">Full stack web developer and coder</h3>
-          <h1 className=" text-2xl  text-yellow-500 font-bold pt-5" >About me  </h1>
 
-          <ul className=" px-1 text-left  sm:text-center text-sm sm:px-20:px-3:pt-1 ">
-            <li className='py-1'>{<ArrowForwardIcon />}Hello, I am Shivraj Singh Rathore from Jaipur,India.</li>
-            <li  className='py-1'>{<ArrowForwardIcon/>}I am currently completing my final year of BCA in S.S. Jain Subodh College ,Jaipur</li>
-            <li className='py-1'>{<ArrowForwardIcon/>}I am very passionate in computer science field and love to code to generate amazing outputs on our screens</li>
-            <li className='py-1'>{<ArrowForwardIcon/>}I am a quick learner ,i started my computer science jouney around 3 years ago and gained soo much knowledge in this field as you can see my Service and Skills section</li>
-            <li className='py-1'>{<ArrowForwardIcon/>}I am a Hard worker as you can check my excellent Academics scores.</li>
-            <li className='py-1'>{<ArrowForwardIcon/>}I am a Team Player , i created my starting small learning projects with my class friends which aspired me to work in team and collab with each other effecttively </li>
-
-          </ul>
 
         </div>
 
@@ -41,6 +31,35 @@ const Home = () => {
 
         <div className=" mt-10 ">
           <img src="./profile.jpeg" alt="not found" className=' w-60 h-60 m-auto rounded-full ' />
+        </div>
+
+
+        <div>
+        <h1 className=" text-2xl  text-yellow-500 font-bold pt-5 text-center" >Skills</h1>
+
+
+<ul className=" px-1 text-left sm:text-center text-sm sm:px-20:px-3:pt-1  text-white" style={{display:"flex" , flexDirection:"column" , justifyContent:"center" , gap:"0.5rem"}}>
+  <li className='py-1 bg-gray-900 w-fit rounded-full px-5 mx-auto'>JavaScript , Java and C language.</li>
+  <li  className='py-1 bg-gray-900 w-fit rounded-full px-5 mx-auto'>Node JS (Express)</li>
+  <li className='py-1 bg-gray-900 w-fit rounded-full px-5 mx-auto'>MySQL ( KNEX ORM )</li>
+  <li className='py-1 bg-gray-900 w-fit rounded-full px-5 mx-auto'>MongoDB</li>
+  <li className='py-1 bg-gray-900 w-fit rounded-full px-5 mx-auto'>GitHub</li>
+  <li className='py-1 bg-gray-900 w-fit rounded-full px-5 mx-auto'>ChatGPT </li>
+
+</ul>
+          
+        </div>
+        <div>
+        <h1 className=" text-2xl  text-yellow-500 font-bold pt-5 text-center" >About me  </h1>
+
+<ul className=" px-1 text-left  sm:text-center text-sm sm:px-20:px-3:pt-1  text-white">
+  <li className='py-1'>{<ArrowForwardIcon />}Hello, I am Shivraj Singh Rathore from Jaipur,India.</li>
+  <li  className='py-1'>{<ArrowForwardIcon/>}I am currently completing my final year of BCA in S.S. Jain Subodh College ,Jaipur</li>
+  <li className='py-1'>{<ArrowForwardIcon/>}Eager and motivated MERN stack developer with a solid foundation in React.js, Node.js ( Express.js ) , MySQL with KNEX ORM ,MongoDB , responsive and beautiful designing gained through 3-month internship and years of learning , seeking to leverage my internship experience and passion for full-stack development to contribute to a dynamic team where I can continue to grow my skills and make meaningful contributions to innovative web projects</li>
+
+
+</ul>
+          
         </div>
 
       </div>
